@@ -1,0 +1,39 @@
+.listContainer {
+  padding: 0;
+  width: 100%;
+}
+
+.linkWrapper {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkWrapper:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.userInfo div {
+  display: flex;
+  gap: 5px;
+}
+.userInfo h3 {
+  margin-right: 20px;
+}
+
+.userInfo p {
+  margin: 0;
+}
+
+.userInfo p.label {
+  font-weight: bold;
+}

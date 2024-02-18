@@ -1,0 +1,28 @@
+.headContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sortContainer {
+  display: flex;
+  gap: 10px;
+  margin-right: 5px;
+}
+
+.sortContainer li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+.search {
+  width: 20%;
+  height: 30px;
+  padding-left: 3px;
+}
