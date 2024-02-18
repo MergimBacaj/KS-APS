@@ -15,7 +15,7 @@ export const appRoutes: RouteObject[] = [
       { path: ":userId", element: <Post /> },
     ],
   },
-  { path: "*", element: <Navigate to="users" replace /> },
+  { path: "*", element: <UsersList /> },
 ];
 
 export const Routes = () => {
