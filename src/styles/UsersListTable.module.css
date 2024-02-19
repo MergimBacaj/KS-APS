@@ -8,9 +8,9 @@
   color: inherit;
 }
 
-.linkWrapper:hover {
+.linkWrapper :hover {
   background-color: #f0f0f0;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .userInfo {
