@@ -13,7 +13,7 @@ interface ResponseData {
   posts: Post[];
 }
 
-const useGetPost = (id: number) => {
+const useGetPost = (id: number | undefined) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<any | null>(null);
   const [post, setPost] = useState<Post | undefined>(undefined);

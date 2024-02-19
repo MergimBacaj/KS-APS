@@ -7,10 +7,10 @@ import classes from "../styles/Post.module.css";
 
 const Post = () => {
   const { userId } = useParams();
+  const { loading, post, error } = useGetPost(Number(userId));
   if (!userId) {
-    return <p>loading</p>;
+    return <Error />;
   }
-  const { loading, post, error } = useGetPost(+userId);
   return (
     <div className={classes.postContainer}>
       <HandleRequestState state={loading} placeholder={<Loading />}>
